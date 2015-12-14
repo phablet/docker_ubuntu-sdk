@@ -1,4 +1,4 @@
-FROM vicamo/ubuntu-sdk:frameworks-wily
+FROM phablet/ubuntu-sdk-frameworks:wily
 
 RUN dpkg --add-architecture i386 \
 	&& apt-get update \

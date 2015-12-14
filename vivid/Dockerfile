@@ -1,4 +1,4 @@
-FROM vicamo/ubuntu-sdk:frameworks-vivid
+FROM phablet/ubuntu-sdk-frameworks:vivid
 
 RUN dpkg --add-architecture i386 \
 	&& apt-get update \

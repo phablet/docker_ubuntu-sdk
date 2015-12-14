@@ -1,4 +1,4 @@
-FROM vicamo/ubuntu-sdk:frameworks-trusty
+FROM phablet/ubuntu-sdk-frameworks:trusty
 
 RUN dpkg --add-architecture i386 \
 	&& apt-get update \
